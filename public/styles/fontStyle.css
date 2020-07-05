@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;500;700&family=Roboto:wght@100;400;700&display=swap');
+/* 
+font-family: 'Cormorant Infant', serif;
+font-family: 'Roboto', sans-serif; 
+*/
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.title {
+   font-family: 'Cormorant Infant', serif;
+   font-size: 25px;
+}
+
+.link {
+   text-decoration: none;
+   color: inherit;
+}
+
+.quote {
+   font-family: 'Cormorant Infant', serif;
+   font-size: 16px;
+   text-align: right;
+   text-decoration: wavy;
+   margin: 20px 10px 50px 0px;
+}
+
+.text {
+   font-weight: 400;
+   margin-bottom: 20px;
+}
+

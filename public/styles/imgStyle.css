@@ -1,0 +1,21 @@
+/* ----- IMAGES ----- */
+
+.float {
+   float: left;
+}
+
+.medium-size,
+.small-size {
+   border-radius: 2px;
+   box-shadow: black 0px 2px 2px;
+}
+
+.medium-size {
+   height: 400px;
+   margin: 0px 20px 20px 0px;
+}
+
+.small-size {
+   height: 200px;
+   margin-bottom: 20px;
+}

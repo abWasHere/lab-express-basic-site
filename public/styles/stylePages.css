@@ -1,0 +1,97 @@
+body {
+   position: relative;
+   height: 750px;
+}
+
+/* ----- NAV BAR ----- */
+
+#nav-main-wrap {
+   height: 80px;
+   padding: 0px 20px;
+   justify-content: space-between;
+   color: whitesmoke;
+   background-color: rgb(216, 155, 42);
+   box-shadow: black 0px 1px 5px;
+}
+#nav-main {
+   justify-content: flex-end;
+}
+#nav-main .link {
+   margin-left: 20px;
+   font-weight: 700;
+   font-size: 18px;
+}
+#title-nav {
+   font-size: 30px;
+   text-shadow: #000 1px 0 10px;
+}
+
+/* ----- BANNER W/ TITLE ----- */
+
+#banner-home {
+   height: 750px;
+   background-image: url('../images/arya-stark.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+}
+#title-home {
+   line-height: 750px;
+   font-size: 70px;
+   color: whitesmoke;
+   text-shadow: rgb(221, 217, 215) 1px 0 10px;
+}
+
+/* ----- ABOUT ----- */
+.info-box {
+   padding: 20px;
+   height: fit-content;
+}
+.info-box:first-child {
+   grid-column: 1/3;
+}
+
+/* ----- WORKS ----- */
+#banner-works {
+height: 400px;
+width: 100%;
+margin-top: 20px;
+background-image: url('../images/arya-stark-ashes.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+color : whitesmoke;
+text-shadow: rgb(223, 80, 14) 1px 0 10px;
+}
+#works-title {
+   font-size: 50px;
+}
+.kill-box {
+   position: relative;
+   margin-top: 50px;
+}
+.status {
+   position: absolute;
+   top: 50%;
+   left: 45%;
+   transform: translateY(-50%);
+   transform: rotate(0.9turn);
+   font-size: 30px;
+   color: red;
+}
+
+/* ----- FOOTER ----- */
+
+#footer-main-wrap {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 20px;
+   padding: 0px 20px;
+   color: whitesmoke;
+   background-color: rgba(68, 64, 56);
+}
+
+#footer-main-wrap .link {
+   font-weight: 700;
+   font-size: 12px;
+}
